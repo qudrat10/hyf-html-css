@@ -1,0 +1,53 @@
+body{
+    width: 1000px;
+    margin:auto; 
+    background-size: 120%;
+    border: solid;
+    font-family: Arial, sans-serif;
+
+}
+h1{
+   color: blue;
+   font-style: italic;
+}
+h4{
+    background-color:#E8E8E8;
+    padding: 7px 7px 7px 7px;
+    
+}
+#photo{
+    width: 180px;
+    border-style: none;
+    border-radius: 5px; 
+    float: left;
+}
+section{
+    margin: 25px;
+    font-size: 20px;
+}
+#part1-style{
+    font-size: 20px;
+   
+}
+#info{
+    line-height: 25px;
+    font-size: 20px;
+    font-style: italic;
+
+}
+#list-item{
+    line-height:30px;
+    font-size: 20px;
+}
+table{
+    margin: 20PX;
+    font-size: 18px;
+      
+}
+th{
+text-align: left;
+padding: 5px 5px 5px 5px;
+}
+td{
+    margin: 10%;   
+}
