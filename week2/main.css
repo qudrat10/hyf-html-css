@@ -1,0 +1,17 @@
+.container{
+    background-color: lightgrey;
+    width: 800%;
+    height: 500px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.container:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);  
+
+}
+.container{
+    width: 300px;
+    height: 300px;
+    transition: width 2s, height 2s, transform 2s;
+}
