@@ -1,0 +1,120 @@
+html{
+    background: lightgray;
+}
+body{
+    width: 1200px;
+    background-color: ghostwhite;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+h1{
+    padding: 50px;
+    background-color: lightgray; 
+ 
+}
+h1, h2 {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-size: 2em;
+    margin: 2em 0;
+   
+}
+h3{
+    text-align: center;
+    font-family: billabong, obster;
+    color: blue;
+    font-style: italic;
+    font-size: 25px;
+}
+ul {
+    list-style:none;
+    margin: 4em auto;
+    padding:0;
+    width:100%;
+    max-width: 800px;
+}
+img {
+    width:100%;
+    height:auto;
+    border: 1px solid;
+}
+.grid-item{ 
+    font-size: 20px;
+    line-height: 28px;
+    width: calc(50% - 1em);
+    margin:0.5em;
+    
+}
+.grid-item:nth-child(1) {
+    width: calc(100% - 1em);
+    margin: 0.5em;
+}
+
+#grid-floats:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+#grid-floats .grid-item {
+    float:left; }
+#grid-floats .grid-item:nth-child(2n){
+    clear:left;
+}
+
+#grid-flex { display:flex;
+   flex-wrap: wrap;
+}
+
+@media screen and (min-width: px) {
+    .grid-item {
+      width: calc(100% / 2 - 1em);
+    }
+    .grid-item:nth-child(1) {
+      width: calc((100% / 2) * 2 - 1em);
+    }
+    #grid-floats .grid-item:nth-child(2n) {
+      clear: left;
+    }
+  
+  }
+  @media screen and  (min-width: 320px) {
+    .grid-item {
+      width: calc(100% / 2 - 1em);
+    }
+    .grid-item:nth-child(1) {
+      width: calc((100% / 2) * 2 - 1em);
+    }
+    #grid-floats .grid-item:nth-child(2n) {
+      clear: left;
+    }
+
+  @media screen and  (min-width: 650px) {
+    .grid-item {
+      width: calc(100% / 2 - 1em);
+    }
+    .grid-item:nth-child(1) {
+      width: calc((100% / 2) * 2 - 1em);
+    }
+    #grid-floats .grid-item:nth-child(2n) {
+      clear: left;
+    }
+  
+  }
+
+@media screen and  (min-width: 1199px) {
+  .grid-item {
+    width: calc(100% / 2 - 1em);
+  }
+  .grid-item:nth-child(1) {
+    width: calc((100% / 2) * 2 - 1em);
+  }
+  #grid-floats .grid-item:nth-child(2n) {
+    clear: left;
+  }
+
+}
+
+
+
