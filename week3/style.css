@@ -1,0 +1,355 @@
+body{
+    font: 15px/ 1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: snow;
+}
+
+/* Global*/
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+.container h1,h2,h3{
+    color:  #4682b4;
+}
+.container a{
+    text-decoration: none;
+   
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.logo{
+  
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.log img{
+    width: 200px;
+    height: 100px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button1{
+    height: 38px;
+    background: black;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    
+}
+
+
+/* header*/
+header{
+    background-color:#4682B4;
+    color: #ffffff ;
+    padding: 15px;
+    min-height: 70px;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+   
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+/* showcase */
+
+#showcase{
+    width: 100%;
+    margin: auto;
+    min-height: 420px;
+    background-image: url('loonkostenvoordelen-hero.jpg'); 
+}
+#showcase li{
+    list-style: none;
+    font-size: 22px;
+    line-height: 40px;
+}
+ #showcase .show-box{
+    float: left;
+    margin-top: 30px;
+    margin-left:5px;
+    padding: 20px;
+    padding-right: 150px;
+    background-color: snow;
+   
+}
+#showcase form{
+    float: right;
+    margin-top: 30px;
+    
+
+}
+#showcase input[type="Zoken"]{
+    padding: 4px;
+    height: 30px;
+    width: 280px;
+    
+}
+#showcase  .copyright{
+    margin-left: 40px;
+    font-size: 20px;
+    color: #F5F5F5;
+
+}
+
+
+/*Boxes*/
+
+#boxes{
+    margin: auto;
+    margin-top: 0px;
+    padding-bottom: 70px;
+    background: #ffffff;
+    color: #4682b4;
+   
+}
+#boxes .box{
+    float: left;
+    width: 320px;
+    height: 250px;
+    margin: 20px 25px 0px 20px;
+    padding: 10px;
+    text-align: justify;   
+}
+
+.box h3{
+    font-size: 30px;
+    text-align: left;
+   
+}
+.box p{
+    font-size: 22px;
+    text-align: left;
+}
+
+
+
+/*Extra-information*/
+
+#extra-info{
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: justify;
+   
+}
+
+.extra img{
+    width: 500px;
+}
+.extra h3{
+    font-size: 30px;
+    padding-top: 0px;
+    color: #4682b4;
+}
+
+#extra-info p{
+    font-size: 20px;
+    margin-top: -5px; 
+}
+#extra-info .extra{
+    float: left;
+    margin: 20px;
+}
+
+
+/*News section*/
+#news{
+    width: 100%;
+    margin: auto;
+    min-height: 900px;
+   
+}
+#news .news-box{
+    float: left;
+    width: 470px;
+    height: 300px;
+    margin-top: 30px;
+    margin-right:35px;
+    margin-left:5px;
+    padding: 0px 10px 25px 10px;
+    line-height: 35px;
+    text-align: justify;
+}
+#news .news-box h3{
+    font-size: 30px;
+    text-align: left;
+   
+}
+#news h1{
+    font-size: 35px;
+    border-top: 1px solid silver;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+#news .news-box p{
+    font-size: 20px;
+   
+}
+#news .news-box .date-time{
+    font-weight: bold;
+    
+}
+/* More-News*/
+#more-news{
+    width: 100%;
+    margin: auto;
+    min-height: 480px;
+}
+
+#more-news .news-box{
+    border: 5px solid gray;
+    float: left;
+    min-width: 470px;
+    height: 260px;
+    line-height: 40px;
+    margin-right: 40px;
+    margin-left: 0px;
+    padding: 0px 8px 5px 8px;
+    text-align: center;
+    
+}
+#more-news h2{
+    font-size: 25px;
+    color: #4682b4;
+
+}
+#more-news h3{
+    font-size: 50px; 
+    margin-bottom: 30px;    
+}
+#more-news .news-box p{
+    font-size: 40px;
+  
+    
+}
+#more-news .news-box .number{
+    color: #4682b4;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*Footer*/
+#footer{
+    width: 100%;
+    min-height: 300px;
+    margin: auto;
+    background-color: #4682b4;
+}
+#footer h4{
+    color: #ffffff;
+    font-weight: none;
+}
+#footer h3{
+    float: left;
+    font-size: 32px;
+    color: #ffffff;
+    font-style: italic;
+    padding: 5px 5px 5px 10px;
+    margin-top: 100px;
+    margin-left:10px;
+}
+#footer a{
+    color: #ffffff;
+}
+
+#footer li{
+    list-style: none;
+    color: #ffffff;
+}   
+
+#footer .aside{
+    float: right;
+    min-width: 300px;
+    height: 3px;
+    margin-top:50px;
+    margin-bottom:350px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    text-align: justify;
+}
+
+/*second-footer*/
+
+#language{
+    width: 100%;
+    height: 200px;
+   
+}
+#language .lang-box{
+    width: 950px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 300px;
+    padding: 10px 10px 10px 10px;
+    font-size: 22px;
+}
+#language .lang-box li{
+    float: left;
+    list-style: none;
+    margin:15px;
+    margin-right: 10px;    
+}
+#language .lang-box a{
+    border: 1px solid #4682b4;
+    color: #4682b4;
+    padding: 10px;
+}
+
+
+
+/*Media Queries*/
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #boxes .box,
+    artical#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+header{
+    padding-bottom: 20px;
+}
+#showcase h1{
+    margin-top:40px;
+}
